@@ -63,7 +63,7 @@ async function editPost(id) {
                 title: newTitle
             })
         });
-
+           console.log("Deleting post:", id);
         if (response.ok) {
             const updatedPost = await response.json();
 
