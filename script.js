@@ -75,6 +75,7 @@ async function editPost(id) {
                 card.querySelector("h2").textContent = updatedPost.title;
             }
 
+            // Update the post title without reloading the page
             alert("Post updated successfully!");
         }
     } catch (error) {
