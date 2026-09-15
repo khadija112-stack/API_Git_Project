@@ -77,6 +77,7 @@ async function editPost(id) {
 
             // Update the post title without reloading the page
             alert("Post updated successfully!");
+            console.log("Update completed for post:", id);
         }
     } catch (error) {
         console.error("Error updating post:", error);
